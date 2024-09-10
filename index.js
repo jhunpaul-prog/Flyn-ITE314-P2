@@ -3,7 +3,7 @@ const app = express();
 
 // Route for the root URL
 app.get('/', (req, res) => {
-    res.send('Choose /NodeJS, /Subject, /exam');
+    res.send('Put on URL /subject, /exam, /node');
 });
 
 // Route for /subject
